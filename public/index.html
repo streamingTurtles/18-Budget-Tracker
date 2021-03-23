@@ -12,7 +12,7 @@
 
   <!-- adding link to manifest.webmanifest file    -->
   <link rel="manifest" href="manifest.webmanifest" />
-  <!-- <meta name="theme-color" content="#ede964"/> -->
+  <meta name="theme-color" content="#2196F3"/>
 
   <title>Budget Tracker</title>
 </head>
@@ -47,5 +47,19 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="index.js"></script>
+  <!-- Register the service worker: adding in script tag for service worker  -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js").then(reg => {
+          console.log("Your service worker file service-worker.js is now registered", reg);
+        })
+        // throw an error if the service worker is not found 
+        .catch(err => {
+          console.log("Unfortunatly, your service worker failed, please see error:\n", err);
+        })
+      });
+    }
+  </script>
 </body>
 </html>

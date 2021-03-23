@@ -18,10 +18,10 @@ td, th {
   padding: 8px;
 }
 
-/* removed color to add my own color to understand how to use in the manifest.webmanifest file  */
-/* tr:nth-child(even) {
+/* testing with different colors to understand how to use in the manifest.webmanifest file  */
+tr:nth-child(even) {
   background-color: #dddddd;
-} */
+}
 
 .error {
   color: red;
