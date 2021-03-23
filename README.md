@@ -7,7 +7,7 @@
   - [Contribution Guidelines](#contribution-guidelines)
   - [License Type](#license-type)
   - [Github Repo Link](#github-repo-link)
-  - [HEROKU Live APP Link](https://blooming-taiga-93429.herokuapp.com/?id=60512ad42d8d850015644c81)
+  - [HEROKU Live APP Link](https://infinite-dusk-05102.herokuapp.com/)
   - [Github Information](#github-information)
   - [my-email-for-questions-and-information](#my-email-for-questions-and-information)
 
@@ -17,29 +17,19 @@
   ## Screenshot of the App running as on Heroku:
   ![Screenshot](./public/assets/budget-Tracker-pic-1.png)
   ===
-  ## Select Exercise Type:
+  ## Manifest file applied:
   ![Screenshot](./public/assets/budget-Tracker-pic-2.png)
   ===
-  ## Select a Cardio Workout & enter your metrics:
+  ## Storage:
   ![Screenshot](./public/assets/budget-Tracker-pic-3.png)
   ===
-  ## Completing the Cardio Workout, results shown
+  ## IndexDB storing values when offline
   ![Screenshot](./public/assets/budget-Tracker-pic-4.png)
   ===
-  ## Workout Dashboard
+  ## Showing Network resources from indexDB when offline
   ![Screenshot](./public/assets/budget-Tracker-pic-5.png)
   ===
-  ## Adding a Resistance Workout :
-  ![Screenshot](./public/assets/budget-Tracker-pic-6.png)
-  ===
-  ## Enter Resistance Workout Metrics:
-  ![Screenshot](./public/assets/budget-Tracker-pic-7.png)
-  ===
-  ## Completing the Resistance Workout
-  ![Screenshot](./public/assets/budget-Tracker-pic-8.png)
-  ===
-  ## Workout Dashboard
-  ![Screenshot](./public/assets/budget-Tracker-pic-9.png)
+ 
 
 
 
