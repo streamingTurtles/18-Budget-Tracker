@@ -63,7 +63,8 @@ function checkDatabase() {
         // clear all items in your store - remove so that I can see the data in the 
         // browser in the indexDB section in chrome Dev Tools > application in the pending 
         // if left in - its always clearing
-        // store.clear();
+        //
+        store.clear();
       });
     }
   };

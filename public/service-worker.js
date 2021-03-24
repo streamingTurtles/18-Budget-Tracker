@@ -53,7 +53,8 @@ self.addEventListener('activate', function(evt) {
 
   // to work offline, call fetch
   // make the service worker fetch our api when a connection is present, or load the cache site pages
-  self.addEventListener('fetch', (evt) => {
+  //
+  self.addEventListener('fetch', function(evt) {
         if (evt.request.url.includes('/api/')) {
         evt.respondWith(
             caches
